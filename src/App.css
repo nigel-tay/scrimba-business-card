@@ -9,7 +9,7 @@ body {
     background-color: #1A1B21;
 }
 
-/* Info */
+/* Info section */
 .info-container {
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body {
 
 .info-container > img {
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .info-text {
@@ -65,4 +65,31 @@ body {
 .linkedin-button {
     background-color: #5093E2;
     color: white;
+}
+
+/* About and Interests section */
+.about-interests {
+    padding: 20px;
+}
+
+.about-interests > h1 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.about-interests > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15.36px;
+}
+
+/* About section */
+.about-container {
+    padding-bottom: 1px;
+}
+
+/* Interests section */
+.interests-container {
+    padding-top: 1px;
+    padding-bottom: 30px;
 }
