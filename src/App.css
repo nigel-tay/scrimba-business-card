@@ -1,41 +1,68 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+    margin: 0 auto;
+    width: 317px;
+    font-family: Inter;
+    color: #FFFFFF;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.background-class {
+    background-color: #1A1B21;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Info */
+.info-container {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.info-container > img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
-.card {
-  padding: 2em;
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.read-the-docs {
-  color: #888;
+.name-text {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.role-text {
+    margin-top: 5px;
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+}
+
+.website-text {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.info-button {
+    width: 115px;
+    height: 34px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.linkedin-button {
+    background-color: #5093E2;
+    color: white;
 }
