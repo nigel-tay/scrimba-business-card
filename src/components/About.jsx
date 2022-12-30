@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="about-container about-interests background-class">
+        <div className="about-container about-interests bg-background-black">
             <h1>About</h1>
             <p>
                 I am a frontend developer with a particular interest in making things simple 

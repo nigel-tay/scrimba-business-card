@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Interests() {
     return (
-        <div className="interests-container about-interests background-class">
+        <div className="interests-container about-interests bg-background-black">
             <h1>Interests</h1>
             <p>
             Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. 
