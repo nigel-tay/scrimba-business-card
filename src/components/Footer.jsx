@@ -3,11 +3,11 @@ import { FaTwitterSquare, FaFacebookSquare, FaInstagramSquare, FaGithubSquare } 
 
 export default function Footer() {
     return (
-        <div className="footer-container bg-background-black">
-            <FaTwitterSquare className="social-icons" />
-            <FaFacebookSquare className="social-icons" />
-            <FaInstagramSquare className="social-icons" />
-            <FaGithubSquare className="social-icons" />
+        <div className="h-16 rounded-t-none rounded-b-2xl flex justify-center bg-background-black">
+            <FaTwitterSquare className="h-7 w-7 p-0.5 text-footer-color mx-2" />
+            <FaFacebookSquare className="h-7 w-7 p-0.5 text-footer-color mx-2" />
+            <FaInstagramSquare className="h-7 w-7 p-0.5 text-footer-color mx-2" />
+            <FaGithubSquare className="h-7 w-7 p-0.5 text-footer-color mx-2" />
         </div>
     )
 }

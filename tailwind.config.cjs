@@ -13,6 +13,7 @@ module.exports = {
         'background-black': '#1A1B21',
         'role-green': '#F3BF99',
         'linkedin': '#5093E2',
+        'footer-color': '#918E9B',
       }
     },
   },
